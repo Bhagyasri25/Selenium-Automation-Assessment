@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+    <test name="Run Regression Tests">
+        <classes>
+            <class name="testrunners.TestRunner">
+                <parameter name="cucumber.filter.tags" value="@Regression"/>
+            </class>
+        </classes>
+    </test>
+</suite>
